@@ -4,22 +4,23 @@ Discord Server Joiner and Booster is a script that allows you to automatically j
 # Installation
 Download nodejs
 
-# git clone https://github.com/TahaGorme/token-joiner-and-booster.git
-# cd token-joiner-and-booster
-# npm i
-# node .
-Config
+git clone https://github.com/TahaGorme/token-joiner-and-booster.git
+cd token-joiner-and-booster
+npm i
+node .
+
+# Config
 The config.json file contains the following properties:
 
-# captcha_service: (optional) Your Captcha service (2Captcha or Capmonster)
-# captcha_api_key: (optional) Your 2captcha or Capmonster API key for solving captchas.
-# invite: The invite or invite code for the Discord server you wish to join.
-# joinDelay: The delay (in milliseconds) between each join attempt.
-# useProxies: Enable it if you want to use proxies (fill proxies in proxies.txt)
-# boost: (optional) An object containing properties for server boosting.
-# enabled: Whether or not you want to boost the server on joining.
-# delay: The delay (in milliseconds) before boosting the server.
-# serverId: The ID of the server to boost.
+captcha_service: (optional) Your Captcha service (2Captcha or Capmonster)
+captcha_api_key: (optional) Your 2captcha or Capmonster API key for solving captchas.
+invite: The invite or invite code for the Discord server you wish to join.
+joinDelay: The delay (in milliseconds) between each join attempt.
+useProxies: Enable it if you want to use proxies (fill proxies in proxies.txt)
+boost: (optional) An object containing properties for server boosting.
+enabled: Whether or not you want to boost the server on joining.
+delay: The delay (in milliseconds) before boosting the server.
+serverId: The ID of the server to boost.
 
 # Program Usage
 The program will automatically attempt to join the server using each token provided in the tokens.txt file. The joinDelay property determines the delay between each join attempt.
