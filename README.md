@@ -6,7 +6,7 @@ Discord Server Joiner and Booster is a script that allows you to automatically j
 # Installation
 Download nodejs
 
-git clone https://github.com/TahaGorme/token-joiner-and-booster.git
+git clone
 cd token-joiner-and-booster
 npm i
 node .
